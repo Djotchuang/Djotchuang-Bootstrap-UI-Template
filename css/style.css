@@ -50,6 +50,7 @@ body {
   background: url(../images/pexels1.jpeg);
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   text-align: center;
 }
 
@@ -107,7 +108,7 @@ body {
 }
 
 .section-2 .container-fluid {
-  background: url("../images/pexels5.jpg");
+  background: url("../images/pexels5.jpeg");
   background-attachment: fixed;
   background-size: cover;
 }
