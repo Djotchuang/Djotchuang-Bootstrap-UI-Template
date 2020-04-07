@@ -8,7 +8,7 @@ ScrollReveal().reveal(".section-4 .col-md-7, .col-md-5");
 ScrollReveal().reveal("#gallery");
 
 // Smooth Scrolling
-$(".cf a").on("click", function (event) {
+$(".navbar a").on("click", function (event) {
   if (this.hash !== "") {
     event.preventDefault();
 
@@ -18,7 +18,7 @@ $(".cf a").on("click", function (event) {
       {
         scrollTop: $(hash).offset().top,
       },
-      4400,
+      800,
       function () {
         window.location.hash = hash;
       }
